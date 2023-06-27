@@ -1,5 +1,4 @@
-"""
-URL configuration for app project.
+"""URL configuration for app project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -35,6 +34,7 @@ urlpatterns = [
     path('api/user/', include('user.urls')),
     path('api/recipe/', include('recipe.urls')),
 ]
+
 if settings.DEBUG:
     urlpatterns += static(
         settings.MEDIA_URL,

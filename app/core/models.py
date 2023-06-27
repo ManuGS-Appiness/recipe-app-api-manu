@@ -1,3 +1,6 @@
+"""
+Database models.
+"""
 import uuid
 import os
 
